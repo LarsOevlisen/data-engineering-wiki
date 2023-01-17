@@ -11,12 +11,12 @@ In a column-oriented or columnar database, the data for each column in a datatab
 ## Column-oriented Database Example
 In a datatable like this:
 
-EmpId | Lastname | FirstnameSalary
------ | ----- | -----
-10 | Smith | Joe | 60000
-12 | Jones | Mary | 80000
-11 | Johnson | Cathy | 94000
-22 | Jones | Bob | 55000
+| EmpId | Lastname | Firstname | Salary |
+|-------|----------|-----------|--------|
+| 10    | Smith    | Joe       | 60000  |
+| 12    | Jones    | Mary      | 80000  |
+| 11    | Johnson  | Cathy     | 94000  |
+| 22    | Jones    | Bob       | 55000  |
 
 The data would be stored like this (simplified example):
 
